@@ -1,4 +1,7 @@
 {
+  "scripts": {
+      "postinstall": "encore production"
+  },
   "devDependencies": {
     "@symfony/webpack-encore": "^0.15.1",
     "autoprefixer": "^7.1.5",
