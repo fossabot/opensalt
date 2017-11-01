@@ -53,7 +53,7 @@ var mainScripts = [
 ];
 
 Encore
-    .setOutputPath('app/web/build/')
+    .setOutputPath('web/build/')
     .setPublicPath('/build')
     .cleanupOutputBeforeBuild()
 
