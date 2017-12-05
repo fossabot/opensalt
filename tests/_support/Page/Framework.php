@@ -22,6 +22,7 @@ class Framework implements Context
     protected $importedAsnList;
     protected $creatorName = 'OpenSALT Testing';
     protected $frameworkData = [];
+    protected $id;
 
     /**
      * @var \AcceptanceTester
@@ -173,6 +174,7 @@ class Framework implements Context
 
         $I->waitForElementNotVisible('#modalSpinner', 120);
         $I->waitForElementVisible('#itemSection h4.itemTitle', 120);
+        $I->setDocId($I->grabValueFrom('#lsDocId'));
 
         return $this;
     }
@@ -635,6 +637,7 @@ class Framework implements Context
        $I->click('Create');
 
        $I->see($framework, '#docTitle');
+       $I->setDocId($I->grabValueFrom('#lsDocId'));
 
     }
 
@@ -724,14 +727,21 @@ class Framework implements Context
     $this->frameworkData[$dataMap[$field]] = $data;
   }
 
+  public function iGoToTheFrameworkDocument(){
+    $I = $this->I;
+
+    $I->amOnPage(self::$docPath.$I->getDocId());
+
+  }
   /**
    * @Given /^I edit the fields in a framework$/
    */
   public function iEditTheFieldsInFramework(TableNode $table) {
     $I = $this->I;
 
-    $I->waitForElementVisible('//*[@id="documentOptions"]/button[2]');
-    $I->click('//*[@id="documentOptions"]/button[2]');
+    $this->iGoToTheFrameworkDocument();
+    $I->waitForElementVisible('//*[@id="documentOptions"]/button[@data-target="#editDocModal"]');
+    $I->click('//*[@id="documentOptions"]/button[@data-target="#editDocModal"]');
     $I->waitForElementVisible('#ls_doc_title');
 
     $rows = $table->getRows();
@@ -739,7 +749,8 @@ class Framework implements Context
       $this->iEditTheFieldInFramework($row[0], $row[1]);
     }
 
-    $I->click('(//button[text()="Save Changes"])[1]');
+    $I->click('//*[@id="editDocModal"]//button[text()="Save Changes"]');
+
     return $this;
   }
 
@@ -829,4 +840,23 @@ class Framework implements Context
 
         $I->assertEquals($hcsValue, current($level1HcsList));
     }
+
+  /**
+   * @Then /^I search for "([^"]*)" in the framework$/
+   */
+  public function iSearchForInTheFramework($item) {
+    $I = $this->I;
+
+    $I->fillField('#filterOnTree', $item);
+    $I->wait(1);
+  }
+
+  /**
+   * @Given /^I should not see "([^"]*)" in results$/
+   */
+  public function iShouldNotSeeInResults($item) {
+    $I = $this->I;
+
+    $I->dontSee($item);
+  }
 }
