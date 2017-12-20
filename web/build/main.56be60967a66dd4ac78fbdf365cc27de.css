@@ -18496,20 +18496,23 @@ table.tree td.expand {
   font-size: 18px;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;
-    max-width: 1500px;
-  }
+main {
+  padding: 8px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 #treeSideLeft {
-  border-right: 3px solid #f5f5f5;
-  margin-right: -3px;
+  float: left;
+  width: 50%;
+  min-width: 300px;
 }
 
 #treeSideRight {
-  border-left: 3px solid #f5f5f5;
+  float: left;
+  width: 50%;
 }
 
 #treeSideLeft .form-group,
@@ -18522,11 +18525,41 @@ table.tree td.expand {
   overflow: auto;
 }
 
+.treeSideLeftInner {
+  height: calc(100vh - 243px);
+  overflow: hidden;
+  width: calc(100% - 33px);
+  float: left;
+}
+
+.treeSideRightInner {
+  height: calc(100vh - 243px);
+  overflow: auto;
+  width: 23px;
+  float: left;
+}
+
+.rightTreeSideLeftInner {
+  height: calc(100vh - 243px);
+  overflow: auto;
+  width: 28px;
+  float: left;
+}
+
+.rightTreeSideRightInner {
+  height: calc(100vh - 243px);
+  overflow: auto;
+  width: calc(100% - 40px);
+  float: left;
+  padding-left: 5px;
+}
+
 #tree1Section {
   height: calc(100% - 169px);
   overflow: auto;
   padding: 3px;
   border-width: 0;
+  padding-left: 20px;
 }
 
 .assocGroupFilter[style="display:none"] ~ #tree1Section {
@@ -18540,6 +18573,11 @@ table.tree td.expand {
 #tree2SectionControls {
   display: none;
   margin-top: 15px;
+  padding-left: 20px;
+}
+
+#tree1SectionControls {
+  padding-left: 20px;
 }
 
 .filterClear {
@@ -18588,7 +18626,7 @@ ul.fancytree-container {
 }
 
 span.fancytree-title {
-  max-width: 90%;
+  max-width: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -18746,7 +18784,7 @@ div.fancytree-drag-helper span.fancytree-childcounter {
 }
 
 .instructions {
-  padding: 5px;
+  padding: 7px;
   border-radius: 4px;
   margin-bottom: 10px;
   min-height: 32px;
@@ -19021,7 +19059,7 @@ mark {
   z-index: 10;
   right: -600px;
   top: 10px;
-  width: 80vw;
+  width: 80vw !important;
   max-width: 600px;
   border-left: 0 !important;
   height: auto !important;
@@ -19044,6 +19082,60 @@ mark {
   right: 5px;
   padding: 4px 0 4px 6px;
   margin-top: -5px;
+}
+
+.toggle-container-left {
+  position: relative;
+  top: 50%;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.toggle-container-right {
+  position: relative;
+  top: 50%;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+#dragbar {
+  background-color: #D5D5D5;
+  height: 100%;
+  float: right;
+  width: 5px;
+  cursor: col-resize;
+}
+
+@media (min-width: 330px) {
+  #ls_doc_list_left label.col-sm-2.control-label,
+  #ls_doc_list_right label.col-sm-2.control-label {
+    width: 18%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #treeSideLeft {
+    padding-bottom: 10px;
+  }
+
+  .rightTreeSideRightInner {
+    width: 100%;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1500px;
+  }
 }
 
 span.fancytree-empty,
