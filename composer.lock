@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "016ecab1a51cc4a4953bcffe95399f16",
+    "content-hash": "78e8991cb69cf94bc45578a35151fb99",
     "packages": [
         {
             "name": "activelamp/swagger-ui-bundle",
@@ -1761,20 +1761,20 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462"
+                "reference": "5527a48b7313d15261292c149e55e26eae771b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e11d84c6e018beedd929cff5220969a3c6d1d462",
-                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/5527a48b7313d15261292c149e55e26eae771b0a",
+                "reference": "5527a48b7313d15261292c149e55e26eae771b0a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0"
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.2"
@@ -1782,7 +1782,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -1824,7 +1824,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2017-07-22T12:18:28+00:00"
+            "time": "2018-01-09T20:05:19+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2251,16 +2251,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.32",
+            "version": "v2.4.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "a268224b312353be62d72e6390a286f4166a7542"
+                "reference": "d5fdc573b6a2ecfa29c070ecb3db8397ac55ed78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/a268224b312353be62d72e6390a286f4166a7542",
-                "reference": "a268224b312353be62d72e6390a286f4166a7542",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/d5fdc573b6a2ecfa29c070ecb3db8397ac55ed78",
+                "reference": "d5fdc573b6a2ecfa29c070ecb3db8397ac55ed78",
                 "shasum": ""
             },
             "require": {
@@ -2325,7 +2325,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2017-12-28T14:36:10+00:00"
+            "time": "2018-01-08T14:13:45+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2862,25 +2862,26 @@
         },
         {
             "name": "jms/aop-bundle",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSAopBundle.git",
-                "reference": "78000d007e74283cc564a58e184d7f62548ad394"
+                "reference": "4ee2089a81b54ce94a8c94e95b48d5bb353dd8d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSAopBundle/zipball/78000d007e74283cc564a58e184d7f62548ad394",
-                "reference": "78000d007e74283cc564a58e184d7f62548ad394",
+                "url": "https://api.github.com/repos/schmittjoh/JMSAopBundle/zipball/4ee2089a81b54ce94a8c94e95b48d5bb353dd8d0",
+                "reference": "4ee2089a81b54ce94a8c94e95b48d5bb353dd8d0",
                 "shasum": ""
             },
             "require": {
                 "jms/cg": "^1.1",
                 "php": ">=5.3.9",
-                "symfony/framework-bundle": "^2.3|^3.0"
+                "symfony/framework-bundle": "^2.3 || ^3.0 || ^4.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "^2.7"
+                "phpunit/phpunit": "^4.8.36 | ^5.0",
+                "symfony/phpunit-bridge": "^2.7 || ^4.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -2908,7 +2909,7 @@
                 "annotations",
                 "aop"
             ],
-            "time": "2015-12-09T16:30:46+00:00"
+            "time": "2018-01-16T10:22:28+00:00"
         },
         {
             "name": "jms/cg",
@@ -4248,12 +4249,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemirror/CodeMirror.git",
-                "reference": "8b9d8e337eb7c1d48d42589a5caee0a2215f620c"
+                "reference": "d0dca6532dd668cf415b2740152b93d1cb454410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemirror/CodeMirror/zipball/8b9d8e337eb7c1d48d42589a5caee0a2215f620c",
-                "reference": "8b9d8e337eb7c1d48d42589a5caee0a2215f620c",
+                "url": "https://api.github.com/repos/codemirror/CodeMirror/zipball/d0dca6532dd668cf415b2740152b93d1cb454410",
+                "reference": "d0dca6532dd668cf415b2740152b93d1cb454410",
                 "shasum": ""
             },
             "require-dev": {
@@ -4296,7 +4297,7 @@
                 "Editor",
                 "JavaScript"
             ],
-            "time": "2018-01-01 12:19:58"
+            "time": "2018-01-19 06:50:18"
         },
         {
             "name": "npm-asset/codemirror-spell-checker",
@@ -4879,50 +4880,102 @@
             "time": "2016-10-10T12:58:39+00:00"
         },
         {
-            "name": "npm-asset/marked",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chjj/marked.git",
-                "reference": "99eee90c913f5e507f7655c3b7a72e61aa6af71b"
-            },
+            "name": "npm-asset/markdown-it-underline",
+            "version": "1.0.1",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/chjj/marked/zipball/99eee90c913f5e507f7655c3b7a72e61aa6af71b",
-                "reference": "99eee90c913f5e507f7655c3b7a72e61aa6af71b",
-                "shasum": ""
+                "type": "tar",
+                "url": "https://registry.npmjs.org/markdown-it-underline/-/markdown-it-underline-1.0.1.tgz",
+                "reference": null,
+                "shasum": "43a54a541d95d739b43157701f1da306d7c300b2"
             },
             "require-dev": {
-                "npm-asset/gulp": ">=3.8.11,<4.0.0",
-                "npm-asset/gulp-concat": ">=2.5.2,<3.0.0",
-                "npm-asset/gulp-uglify": ">=1.1.0,<2.0.0",
-                "npm-asset/markdown": "*",
-                "npm-asset/showdown": "*"
+                "npm-asset/markdown-it": ">=8.1.0,<9.0.0",
+                "npm-asset/power-assert": ">=1.4.2,<2.0.0"
             },
-            "bin": [
-                "./bin/marked"
-            ],
             "type": "npm-asset-library",
             "extra": {
                 "npm-asset-bugs": {
-                    "url": "http://github.com/chjj/marked/issues"
+                    "url": "https://github.com/arve0/markdown-it-underline/issues"
                 },
-                "npm-asset-main": "./lib/marked.js",
-                "npm-asset-man": "./man/marked.1",
-                "npm-asset-repository": "git://github.com/chjj/marked.git",
+                "npm-asset-main": "index.js",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git+https://github.com/arve0/markdown-it-underline.git"
+                },
                 "npm-asset-scripts": {
-                    "test": "node test",
-                    "bench": "node test --bench"
-                },
-                "branch-alias": {
-                    "dev-master": "0.3.10-dev"
+                    "preversion": "npm test",
+                    "postpublish": "git push && git push --tags",
+                    "test": "node test.js"
                 }
             },
             "license": [
                 "MIT"
             ],
             "authors": [
-                "Christopher Jeffrey"
+                {
+                    "name": "Arve Seljebu"
+                }
+            ],
+            "description": "Renders _underline_ to <u>underline</u>",
+            "homepage": "https://github.com/arve0/markdown-it-underline#readme",
+            "keywords": [
+                "commonmark",
+                "markdown",
+                "markdown-it",
+                "markdown-it-plugin",
+                "underline"
+            ],
+            "time": "2016-11-26T10:44:15+00:00"
+        },
+        {
+            "name": "npm-asset/marked",
+            "version": "0.3.12",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/marked/-/marked-0.3.12.tgz",
+                "reference": null,
+                "shasum": "7cf25ff2252632f3fe2406bde258e94eee927519"
+            },
+            "require-dev": {
+                "npm-asset/front-matter": ">=2.3.0,<3.0.0",
+                "npm-asset/glob-to-regexp": "0.3.0",
+                "npm-asset/gulp": ">=3.8.11,<4.0.0",
+                "npm-asset/gulp-concat": ">=2.5.2,<3.0.0",
+                "npm-asset/gulp-uglify": ">=1.1.0,<2.0.0",
+                "npm-asset/markdown": "*",
+                "npm-asset/markdown-it": "*",
+                "npm-asset/showdown": "*"
+            },
+            "bin": {
+                "marked": "./bin/marked"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "http://github.com/chjj/marked/issues"
+                },
+                "npm-asset-main": "./lib/marked.js",
+                "npm-asset-man": [
+                    "./man/marked.1"
+                ],
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git://github.com/chjj/marked.git"
+                },
+                "npm-asset-scripts": {
+                    "test": "node test",
+                    "bench": "node test --bench"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Jeffrey"
+                }
             ],
             "description": "A markdown parser built for speed",
             "homepage": "https://github.com/chjj/marked",
@@ -4931,7 +4984,7 @@
                 "markdown",
                 "markup"
             ],
-            "time": "2018-01-05 22:55:15"
+            "time": "2018-01-09T00:10:42+00:00"
         },
         {
             "name": "npm-asset/match-at",
@@ -5998,16 +6051,16 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "3.7.1",
+            "version": "3.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334"
+                "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/45cffe822057a09e05f7bd09ec5fb88eeecd2334",
-                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
+                "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
                 "shasum": ""
             },
             "require": {
@@ -6018,17 +6071,15 @@
                 "rhumsaa/uuid": "self.version"
             },
             "require-dev": {
-                "apigen/apigen": "^4.1",
-                "codeception/aspect-mock": "^1.0 | ^2.0",
+                "codeception/aspect-mock": "^1.0 | ~2.0.0",
                 "doctrine/annotations": "~1.2.0",
                 "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
                 "ircmaxell/random-lib": "^1.1",
                 "jakub-onderka/php-parallel-lint": "^0.9.0",
-                "mockery/mockery": "^0.9.4",
+                "mockery/mockery": "^0.9.9",
                 "moontoast/math": "^1.1",
                 "php-mock/php-mock-phpunit": "^0.3|^1.1",
-                "phpunit/phpunit": "^4.7|>=5.0 <5.4",
-                "satooshi/php-coveralls": "^0.6.1",
+                "phpunit/phpunit": "^4.7|^5.0",
                 "squizlabs/php_codesniffer": "^2.3"
             },
             "suggest": {
@@ -6076,7 +6127,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-09-22T20:46:04+00:00"
+            "time": "2018-01-20T00:28:24+00:00"
         },
         {
             "name": "ramsey/uuid-doctrine",
@@ -6140,12 +6191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "21b3900483e9bc1536a298bc3eb3d647ab56d8a1"
+                "reference": "eca509e364dcea7b7f41f9452d575684cc8e3fb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/21b3900483e9bc1536a298bc3eb3d647ab56d8a1",
-                "reference": "21b3900483e9bc1536a298bc3eb3d647ab56d8a1",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/eca509e364dcea7b7f41f9452d575684cc8e3fb4",
+                "reference": "eca509e364dcea7b7f41f9452d575684cc8e3fb4",
                 "shasum": ""
             },
             "conflict": {
@@ -6159,9 +6210,10 @@
                 "codeigniter/framework": "<=3.0.6",
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
-                "contao/core": ">=2,<3.5.31",
+                "contao/core": ">=2,<3.5.32",
                 "contao/core-bundle": ">=4,<4.4.8",
                 "contao/listing-bundle": ">=4,<4.4.8",
+                "contao/newsletter-bundle": ">=4,<4.1",
                 "doctrine/annotations": ">=1,<1.2.7",
                 "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
                 "doctrine/common": ">=2,<2.4.3|>=2.5,<2.5.1",
@@ -6199,7 +6251,7 @@
                 "phpxmlrpc/extras": "<0.6.1",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
-                "shopware/shopware": "<5.2.25",
+                "shopware/shopware": "<5.3.7",
                 "silverstripe/cms": ">=3,<=3.0.11|>=3.1,<3.1.11",
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
                 "silverstripe/framework": ">=3,<3.3",
@@ -6228,7 +6280,7 @@
                 "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
+                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "twig/twig": "<1.20",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.22|>=8,<8.7.5",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
@@ -6277,7 +6329,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-01-03T11:17:07+00:00"
+            "time": "2018-01-22T14:51:56+00:00"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -6403,16 +6455,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "387b6a3b723ba35588b33d5f8d14e28ed608bd30"
+                "reference": "d539ccba2b4dce515de04f16b7ed7ae5b9eeb434"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/387b6a3b723ba35588b33d5f8d14e28ed608bd30",
-                "reference": "387b6a3b723ba35588b33d5f8d14e28ed608bd30",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/d539ccba2b4dce515de04f16b7ed7ae5b9eeb434",
+                "reference": "d539ccba2b4dce515de04f16b7ed7ae5b9eeb434",
                 "shasum": ""
             },
             "require": {
@@ -6444,7 +6496,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-10-29T18:48:08+00:00"
+            "time": "2018-01-11T05:54:03+00:00"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
