@@ -20,9 +20,6 @@
 !var/SymfonyRequirements.php
 /vendor/
 
-/web/bundles/*
-!web/bundles/.gitkeep
-
 # Docker
 /.env
 docker/.blackfire.env
